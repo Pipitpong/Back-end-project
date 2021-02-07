@@ -7,8 +7,9 @@ GET {{url}}/users
 POST {{url}}/user
 Content-Type: application/json
 
-{
-    "username": "day",
-    "password": "day"
-}
+# {
+#     "username": "day2",
+#     "password": "day"
+# }
+
 
