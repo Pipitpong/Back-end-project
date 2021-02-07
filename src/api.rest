@@ -1,0 +1,14 @@
+@url = http://localhost:5000
+
+### get all users
+GET {{url}}/users
+
+### create user
+POST {{url}}/user
+Content-Type: application/json
+
+{
+    "username": "day",
+    "password": "day"
+}
+
